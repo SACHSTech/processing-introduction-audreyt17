@@ -58,13 +58,17 @@ public class Sketch extends PApplet {
     line(300, 400, 300, 305);
 
 // rectangle of the house
-    fill(135, 108, 68);
-    rect(50, 149, 160, 250);
+    fill(189, 154, 102);
+    rect(50, 149, 180, 250);
     
 // door of the house
-    fill(189, 154, 102);
-    rect(90, 270, 80, 270);
-
+    fill(135, 108, 68);
+    rect(95, 270, 90, 270);
+    
+// roof of the house
+    fill(135, 108, 68);
+    triangle(50, 150, 135, 60, 230, 150);
+    
 // grass
     fill(97, 173, 97);
     rect(0, 370, 400, 30);
