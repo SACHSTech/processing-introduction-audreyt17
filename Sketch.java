@@ -68,7 +68,7 @@ public class Sketch extends PApplet {
     
 // door of the house
     fill(135, 108, 68);
-    rect(95, 270, 90, 270);
+    rect(95, 270, 90, 125);
     
 // roof of the house
     fill(135, 108, 68);
